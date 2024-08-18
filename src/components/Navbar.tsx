@@ -2,10 +2,10 @@ import Container from "./Container";
 
 export default function Navbar() {
   return (
-    <nav className={"bg-primary text-white"}>
+    <nav className={"bg-primary text-white fixed left-0 top-0 right-0"}>
       <Container classNames={"flex justify-between py-6"}>
         <h1 className="font-bold text-lg">Logo BMS</h1>
-        <ul className="flex justify-end items-center gap-3 font-medium">
+        <ul className="flex justify-end items-center gap-3">
           <li>
             <a
               href="/"

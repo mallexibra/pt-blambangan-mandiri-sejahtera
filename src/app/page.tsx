@@ -9,8 +9,10 @@ export default function LandingPage() {
   return (
     <main>
       <Navbar />
-      <Header />
-      <About />
+      <div className="w-full bg-neutral">
+        <Header />
+        <About />
+      </div>
       <Services />
       <Contact />
       <Footer />

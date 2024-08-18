@@ -12,7 +12,7 @@ const config: Config = {
         primary: "#1F316F",
         secondary: "#FFAD53",
         accent: "#FFAD53",
-        neutral: "#F1F1F1"
+        neutral: "#FFFBF7"
       }
     },
   },
