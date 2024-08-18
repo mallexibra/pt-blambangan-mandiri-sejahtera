@@ -5,6 +5,7 @@ export default function Navbar() {
     <nav>
       <Container>
         <p>Ini adalah navbar</p>
+          <p>Hello World!</p>
       </Container>
     </nav>
   );
