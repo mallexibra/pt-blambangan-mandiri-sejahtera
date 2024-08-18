@@ -1,7 +1,11 @@
+import Container from "./Container";
+
 export default function Navbar() {
   return (
     <nav>
-      <p>Ini navbar</p>
+      <Container>
+        <p>Hello World!</p>
+      </Container>
     </nav>
   );
 }
