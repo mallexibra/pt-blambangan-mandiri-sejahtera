@@ -27,8 +27,13 @@ export default function Contact() {
             loading="lazy"
           ></iframe>
         </section>
-        <section data-aos="fade-left" className="space-y-2 font-medium w-full">
-          <h5 className="text-2xl font-bold text-primary">Kontak Kami</h5>
+        <section
+          data-aos="fade-left"
+          className="space-y-2 font-medium w-full md:text-base text-sm"
+        >
+          <h5 className="md:text-2xl text-lg font-bold text-primary">
+            Kontak Kami
+          </h5>
           <p>
             Untuk informasi lebih lanjut atau jika Anda memerlukan bantuan,
             silakan hubungi kami di:

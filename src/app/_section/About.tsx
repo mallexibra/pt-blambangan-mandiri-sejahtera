@@ -8,7 +8,7 @@ export default function About() {
       <Container>
         <h3
           data-aos="fade-down"
-          className="text-3xl font-bold text-primary mb-7"
+          className="md:text-3xl text-xl font-bold text-primary mb-7"
         >
           Tentang Kami
         </h3>
@@ -21,10 +21,10 @@ export default function About() {
             />
           </section>
           <section data-aos="fade-left" className="md:w-2/3 w-full">
-            <p className="font-bold text-primary text-2xl mb-3">
+            <p className="font-bold text-primary md:text-2xl text-lg mb-3">
               PT BLAMBANGAN MANDIRI SEJAHTERA
             </p>
-            <p>
+            <p className="md:text-base text-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero,
               velit deleniti odit soluta recusandae perferendis? Ipsum aliquam
               ipsa recusandae nesciunt omnis saepe aperiam dignissimos quas

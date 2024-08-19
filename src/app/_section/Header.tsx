@@ -4,17 +4,17 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header>
+    <header className="min-h-screen grid place-items-center pt-6">
       <Container
         classNames={
-          "flex md:justify-between items-center py-8 gap-5 md:gap-8 min-h-screen flex-col-reverse md:flex-row"
+          "flex md:justify-between items-center gap-5 md:gap-8 flex-col-reverse md:flex-row"
         }
       >
         <section data-aos="fade-up-right" className="md:w-1/2 w-full">
-          <h2 className="text-primary font-extrabold md:text-4xl text-3xl text-center md:text-start">
+          <h2 className="text-primary font-extrabold md:text-4xl text-2xl text-center md:text-start">
             PT BLAMBANGAN MANDIRI SEJAHTERA
           </h2>
-          <p className="text-primary my-3 text-center md:text-start">
+          <p className="text-primary my-3 text-center md:text-base text-sm md:text-start">
             Firma hukum terkemuka yang berdedikasi untuk melindungi hak dan
             kepentingan Anda melalui solusi hukum yang tepat dan berintegritas.
           </p>

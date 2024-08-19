@@ -11,7 +11,7 @@ export default function Services() {
       <Container>
         <h5
           data-aos="fade-down"
-          className="font-bold text-primary text-3xl mb-8"
+          className="font-bold text-primary md:text-3xl text-xl mb-8"
         >
           Layanan & Produk
         </h5>
@@ -24,10 +24,10 @@ export default function Services() {
               alt="Produk Image"
             />
             <div data-aos="fade-left" className="md:w-2/3 w-full space-y-3">
-              <h6 className="font-bold text-2xl text-primary">
+              <h6 className="font-bold md:text-2xl text-lg text-primary">
                 Jasa Security Aman Banget
               </h6>
-              <p>
+              <p className="md:text-base text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                 dolorem eos dignissimos voluptate illo quod perferendis, maiores
                 nemo error magnam hic rerum, beatae nihil ipsam culpa quibusdam.
@@ -45,10 +45,10 @@ export default function Services() {
               alt="Produk Image"
             />
             <div data-aos="fade-right" className="md:w-2/3 w-full space-y-3">
-              <h6 className="font-bold text-2xl text-primary">
+              <h6 className="font-bold md:text-2xl text-lg text-primary">
                 Jasa Security Aman Banget
               </h6>
-              <p>
+              <p className="md:text-base text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                 dolorem eos dignissimos voluptate illo quod perferendis, maiores
                 nemo error magnam hic rerum, beatae nihil ipsam culpa quibusdam.
