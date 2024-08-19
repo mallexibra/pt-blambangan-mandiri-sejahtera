@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <div
       id="layananproduk"
-      className="py-12 min-h-screen grid place-items-center"
+      className="pb-12 min-h-screen grid place-items-center pt-20"
     >
       <Container>
         <h5

@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <div
       id="contactus"
-      className="bg-neutral py-12 grid place-items-center"
+      className="bg-neutral pb-12 grid place-items-center pt-24"
       style={{ minHeight: sectionHeight }}
     >
       <Container classNames={"flex justify-between flex-col md:flex-row gap-8"}>
