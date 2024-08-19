@@ -10,7 +10,7 @@ export default function Header() {
           "flex md:justify-between items-center pb-8 gap-5 md:gap-8 min-h-screen flex-col-reverse md:flex-row"
         }
       >
-        <section className="md:w-1/2 w-full">
+        <section data-aos="fade-up-right" className="md:w-1/2 w-full">
           <h2 className="text-primary font-extrabold md:text-4xl text-3xl text-center md:text-start">
             PT BLAMBANGAN MANDIRI SEJAHTERA
           </h2>
@@ -33,7 +33,7 @@ export default function Header() {
             </a>
           </div>
         </section>
-        <section className="md:w-1/2 w-full">
+        <section data-aos="fade-up-left" className="md:w-1/2 w-full">
           <Image
             src={heroImage}
             className="rounded-md border-2 border-white"

@@ -1,11 +1,36 @@
 "use client";
+
 import { IconMenu } from "@tabler/icons-react";
 import Container from "./Container";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import cn from "@/utils/cn";
 
 export default function Navbar() {
   const [mobile, setMobile] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("div[id]");
+      let currentSection = "home";
+
+      sections.forEach((section) => {
+        const sectionElement = section as HTMLElement;
+        const sectionTop = sectionElement.offsetTop - 100;
+
+        if (window.scrollY >= sectionTop) {
+          currentSection = section.getAttribute("id") || "home";
+        }
+      });
+
+      setActiveSection(currentSection);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <nav className="bg-primary text-white fixed left-0 top-0 right-0 z-50">
@@ -23,8 +48,11 @@ export default function Navbar() {
         <ul className="md:flex hidden justify-end items-center gap-3">
           <li>
             <a
-              href="/"
-              className="hover:text-secondary transition-colors duration-300 ease-in-out"
+              href="#home"
+              className={cn(
+                "hover:text-secondary transition-colors duration-300 ease-in-out",
+                activeSection === "home" ? "text-secondary" : ""
+              )}
             >
               Beranda
             </a>
@@ -32,7 +60,10 @@ export default function Navbar() {
           <li>
             <a
               href="#layananproduk"
-              className="hover:text-secondary transition-colors duration-300 ease-in-out"
+              className={cn(
+                "hover:text-secondary transition-colors duration-300 ease-in-out",
+                activeSection === "layananproduk" ? "text-secondary" : ""
+              )}
             >
               Layanan & Produk
             </a>
@@ -40,7 +71,10 @@ export default function Navbar() {
           <li>
             <a
               href="#contactus"
-              className="hover:text-secondary transition-colors duration-300 ease-in-out"
+              className={cn(
+                "hover:text-secondary transition-colors duration-300 ease-in-out",
+                activeSection === "contactus" ? "text-secondary" : ""
+              )}
             >
               Hubungi Kami
             </a>
@@ -55,8 +89,11 @@ export default function Navbar() {
       >
         <li>
           <a
-            href="/"
-            className="hover:text-secondary transition-colors duration-300 ease-in-out"
+            href="#home"
+            className={cn(
+              "hover:text-secondary transition-colors duration-300 ease-in-out",
+              activeSection === "home" ? "text-secondary" : ""
+            )}
           >
             Beranda
           </a>
@@ -64,7 +101,10 @@ export default function Navbar() {
         <li>
           <a
             href="#layananproduk"
-            className="hover:text-secondary transition-colors duration-300 ease-in-out"
+            className={cn(
+              "hover:text-secondary transition-colors duration-300 ease-in-out",
+              activeSection === "layananproduk" ? "text-secondary" : ""
+            )}
           >
             Layanan & Produk
           </a>
@@ -72,7 +112,10 @@ export default function Navbar() {
         <li>
           <a
             href="#contactus"
-            className="hover:text-secondary transition-colors duration-300 ease-in-out"
+            className={cn(
+              "hover:text-secondary transition-colors duration-300 ease-in-out",
+              activeSection === "contactus" ? "text-secondary" : ""
+            )}
           >
             Hubungi Kami
           </a>
