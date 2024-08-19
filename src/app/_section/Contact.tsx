@@ -4,7 +4,7 @@ import { IconBrandWhatsapp, IconLocation } from "@tabler/icons-react";
 export default function Contact() {
   return (
     <div className="bg-neutral py-14">
-      <Container classNames={"flex justify-between gap-8"}>
+      <Container classNames={"flex justify-between flex-col md:flex-row gap-8"}>
         <section className="w-full">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.878956701032!2d114.36811827477092!3d-8.214926291817449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1452e36fade95%3A0xcbcf19a802a16922!2sJl.%20Jend.%20Sudirman%20No.8%2C%20Kec.%20Banyuwangi%2C%20Kabupaten%20Banyuwangi%2C%20Jawa%20Timur!5e0!3m2!1sen!2sid!4v1724027306677!5m2!1sen!2sid"

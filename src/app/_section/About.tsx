@@ -7,15 +7,15 @@ export default function About() {
     <div className="min-h-screen flex items-center">
       <Container>
         <h3 className="text-3xl font-bold text-primary mb-7">Tentang Kami</h3>
-        <div className="flex gap-5 justify-between items-center">
-          <section className="w-1/3">
+        <div className="flex gap-5 justify-between items-center flex-col md:flex-row">
+          <section className="md:w-1/3 w-full">
             <Image
               src={LawyerImage}
               className="rounded-md"
               alt="PT Blambangan Mandiri Sejahtera"
             />
           </section>
-          <section className="w-2/3">
+          <section className="md:w-2/3 w-full">
             <p className="font-bold text-primary text-2xl mb-3">
               PT BLAMBANGAN MANDIRI SEJAHTERA
             </p>

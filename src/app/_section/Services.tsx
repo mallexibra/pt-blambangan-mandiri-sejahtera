@@ -10,13 +10,13 @@ export default function Services() {
           Layanan & Produk
         </h5>
         <div className="space-y-8">
-          <div className="flex items-center gap-6">
+          <div className="flex md:flex-row flex-col items-center gap-6">
             <Image
               src={ProdukImage}
-              className="w-1/3 h-48 rounded-md object-cover"
+              className="md:w-1/3 w-full h-48 rounded-md object-cover"
               alt="Produk Image"
             />
-            <div className="w-2/3 space-y-3">
+            <div className="md:w-2/3 w-full space-y-3">
               <h6 className="font-bold text-2xl text-primary">
                 Jasa Security Aman Banget
               </h6>
@@ -30,13 +30,13 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="flex items-center flex-row-reverse gap-6">
+          <div className="flex items-center md:flex-row-reverse flex-col gap-6">
             <Image
               src={ProdukImage}
-              className="w-1/3 h-48 rounded-md object-cover"
+              className="md:w-1/3 w-full h-48 rounded-md object-cover"
               alt="Produk Image"
             />
-            <div className="w-2/3 space-y-3">
+            <div className="md:w-2/3 w-full space-y-3">
               <h6 className="font-bold text-2xl text-primary">
                 Jasa Security Aman Banget
               </h6>

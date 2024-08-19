@@ -6,17 +6,19 @@ export default function Header() {
   return (
     <header>
       <Container
-        classNames={"flex justify-between items-center gap-8 min-h-screen"}
+        classNames={
+          "flex md:justify-between items-center pb-8 gap-5 md:gap-8 min-h-screen flex-col-reverse md:flex-row"
+        }
       >
-        <section className="w-1/2">
-          <h2 className="text-primary font-extrabold text-4xl">
+        <section className="md:w-1/2 w-full">
+          <h2 className="text-primary font-extrabold md:text-4xl text-3xl text-center md:text-start">
             PT BLAMBANGAN MANDIRI SEJAHTERA
           </h2>
-          <p className="text-primary my-3">
+          <p className="text-primary my-3 text-center md:text-start">
             Firma hukum terkemuka yang berdedikasi untuk melindungi hak dan
             kepentingan Anda melalui solusi hukum yang tepat dan berintegritas.
           </p>
-          <div className="flex gap-3 mt-6">
+          <div className="flex gap-3 mt-6 justify-center md:justify-start">
             <a
               href="#layananproduk"
               className="py-3 px-5 rounded-md text-white text-xs font-medium inline-block bg-primary"
@@ -31,7 +33,7 @@ export default function Header() {
             </a>
           </div>
         </section>
-        <section className="w-1/2">
+        <section className="md:w-1/2 w-full">
           <Image
             src={heroImage}
             className="rounded-md border-2 border-white"
