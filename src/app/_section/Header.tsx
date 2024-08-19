@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <Container
         classNames={
-          "flex md:justify-between items-center pb-8 gap-5 md:gap-8 min-h-screen flex-col-reverse md:flex-row"
+          "flex md:justify-between items-center py-8 gap-5 md:gap-8 min-h-screen flex-col-reverse md:flex-row"
         }
       >
         <section data-aos="fade-up-right" className="md:w-1/2 w-full">
