@@ -40,7 +40,7 @@ export default function Navbar() {
         <Link href={"/"}>
           <Image
             src={logo}
-            width={200}
+            className="md:w-[200px] w-[120]"
             alt="Logo PT Blambangan Mandiri Sejahtera"
           />
         </Link>

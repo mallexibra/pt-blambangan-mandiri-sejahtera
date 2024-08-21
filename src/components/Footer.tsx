@@ -12,7 +12,7 @@ export default function Footer() {
           <section className="md:w-1/3 w-full">
             <Image
               src={logo}
-              className="w-full"
+              className="md:w-full w-10/12"
               alt="Logo PT Blambangan Mandiri Sejahtera"
             />
           </section>
