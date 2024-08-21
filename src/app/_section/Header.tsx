@@ -1,10 +1,10 @@
 import Container from "@/components/Container";
-import heroImage from "../../assets/img/hero.jpg";
+import heroImage from "../../assets/img/security1.jpeg";
 import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="min-h-screen grid place-items-center pt-6">
+    <header className="min-h-screen grid place-items-center pt-8">
       <Container
         classNames={
           "flex md:justify-between items-center gap-5 md:gap-8 flex-col-reverse md:flex-row"
@@ -15,8 +15,9 @@ export default function Header() {
             PT BLAMBANGAN MANDIRI SEJAHTERA
           </h2>
           <p className="text-primary my-3 text-center md:text-base text-sm md:text-start">
-            Firma hukum terkemuka yang berdedikasi untuk melindungi hak dan
-            kepentingan Anda melalui solusi hukum yang tepat dan berintegritas.
+            Perusahaan yang bergerak di bidang jasa keamanan (security) yang
+            berkomitmen untuk menyediakan layanan keamanan yang andal dan
+            profesional bagi berbagai sektor industri, komersial, dan perumahan.
           </p>
           <div className="flex gap-3 mt-6 justify-center md:justify-start">
             <a

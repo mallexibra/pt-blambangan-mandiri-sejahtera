@@ -1,9 +1,11 @@
 "use client";
-
 import { IconMenu } from "@tabler/icons-react";
 import Container from "./Container";
 import { useState, useEffect } from "react";
 import cn from "@/utils/cn";
+import Image from "next/image";
+import logo from "../assets/img/logo.png";
+import Link from "next/link";
 
 export default function Navbar() {
   const [mobile, setMobile] = useState(false);
@@ -35,7 +37,13 @@ export default function Navbar() {
   return (
     <nav className="bg-primary text-white fixed left-0 top-0 right-0 z-50">
       <Container classNames="flex justify-between py-6">
-        <h1 className="font-bold text-lg">Logo BMS</h1>
+        <Link href={"/"}>
+          <Image
+            src={logo}
+            width={200}
+            alt="Logo PT Blambangan Mandiri Sejahtera"
+          />
+        </Link>
         <div>
           <IconMenu
             className={cn(

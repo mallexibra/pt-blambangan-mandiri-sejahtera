@@ -1,6 +1,6 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-import LawyerImage from "../../assets/img/lawyers.jpg";
+import LawyerImage from "../../assets/img/lawyers.png";
 
 export default function About() {
   return (
@@ -25,12 +25,13 @@ export default function About() {
               PT BLAMBANGAN MANDIRI SEJAHTERA
             </p>
             <p className="md:text-base text-sm">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero,
-              velit deleniti odit soluta recusandae perferendis? Ipsum aliquam
-              ipsa recusandae nesciunt omnis saepe aperiam dignissimos quas
-              labore adipisci ducimus sequi, quidem reiciendis eligendi delectus
-              rem iure est temporibus voluptatem suscipit quae! Nam ut veniam,
-              tenetur soluta voluptatum corporis necessitatibus laborum labore!
+              Perusahaan yang bergerak di bidang jasa keamanan (security) yang
+              berkomitmen untuk menyediakan layanan keamanan yang andal dan
+              profesional bagi berbagai sektor industri, komersial, dan
+              perumahan. Dengan tim yang terdiri dari personel keamanan terlatih
+              dan berpengalaman, PT Blambangan Usaha Mandiri menawarkan berbagai
+              layanan mulai dari pengamanan fasilitas, patroli area, hingga
+              layanan pengawalan khusus.
             </p>
           </section>
         </div>

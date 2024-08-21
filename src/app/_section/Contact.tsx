@@ -1,6 +1,7 @@
 "use client";
 import Container from "@/components/Container";
 import { IconBrandWhatsapp, IconLocation } from "@tabler/icons-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Contact() {
@@ -16,7 +17,7 @@ export default function Contact() {
   return (
     <div
       id="contactus"
-      className="bg-neutral pb-12 grid place-items-center pt-24"
+      className="bg-neutral pb-12 grid place-items-center pt-28"
       style={{ minHeight: sectionHeight }}
     >
       <Container classNames={"flex justify-between flex-col md:flex-row gap-8"}>
@@ -38,18 +39,26 @@ export default function Contact() {
             Untuk informasi lebih lanjut atau jika Anda memerlukan bantuan,
             silakan hubungi kami di:
           </p>
-          <div className="flex gap-3 items-center">
+          <Link
+            href="https://wa.me/6285330172687"
+            target="_blank"
+            className="flex gap-3 items-center"
+          >
             <IconBrandWhatsapp className="text-primary" />
-            <p>+62984373221</p>
-          </div>
-          <div className="flex gap-3 items-start">
+            <p>+62 85330172687</p>
+          </Link>
+          <Link
+            href="https://maps.app.goo.gl/xs4aTbV6UYkBrDrS6"
+            target="_blank"
+            className="flex gap-3 items-start"
+          >
             <IconLocation className="text-primary" />
             <p>
               Jl. Jendereal Sudirman <br />
               No. 8 Panderejo <br />
               Banyuwangi - Jawa Timur
             </p>
-          </div>
+          </Link>
         </section>
       </Container>
     </div>
