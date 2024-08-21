@@ -1,6 +1,5 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-import ProdukImage from "../../assets/img/produk.jpg";
 import security1 from "../../assets/img/security1.jpg";
 import security2 from "../../assets/img/security2.jpg";
 import security3 from "../../assets/img/security3.jpg";
@@ -12,7 +11,7 @@ export default function Services() {
   return (
     <div
       id="layananproduk"
-      className="pb-12 min-h-screen grid place-items-center pt-24"
+      className="pb-12 min-h-screen grid place-items-center md:pt-28 pt-24"
     >
       <Container>
         <h5
