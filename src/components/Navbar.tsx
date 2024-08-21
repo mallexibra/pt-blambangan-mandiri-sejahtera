@@ -36,7 +36,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-primary text-white fixed left-0 top-0 right-0 z-50">
-      <Container classNames="flex justify-between py-6">
+      <Container classNames="flex justify-between items-center py-6">
         <Link href={"/"}>
           <Image
             src={logo}
