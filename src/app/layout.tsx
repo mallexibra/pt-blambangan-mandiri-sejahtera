@@ -9,15 +9,15 @@ export const metadata: Metadata = {
     "PT Blambangan Mandiri Sejahtera, Advokat, Pengacara, Layanan Hukum, Konsultasi Hukum",
   openGraph: {
     siteName: "PT Blambangan Mandiri Sejahtera",
-    url: "https://blambanganmandiri.com/",
+    url: "https://https://www.blambanganmandirisejahtera.com/",
     type: "website",
     images: [
       {
-        url: "https://blambanganmandiri.com/logo.png",
+        url: "https://https://www.blambanganmandirisejahtera.com/logo.png",
       },
     ],
   },
-  metadataBase: new URL("https://blambanganmandiri.com/"),
+  metadataBase: new URL("https://https://www.blambanganmandirisejahtera.com/"),
   other: {
     "X-UA-Compatible": "IE=edge",
   },
