@@ -4,20 +4,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "PT Blambangan Mandiri Sejahtera",
   description:
-    "PT Blambangan Mandiri Sejahtera adalah perusahaan yang bergerak di bidang advokat dan layanan hukum, berkomitmen untuk memberikan konsultasi dan layanan hukum terbaik.",
+    "Perusahaan yang bergerak di bidang jasa keamanan (security) yang berkomitmen untuk menyediakan layanan keamanan yang andal dan profesional bagi berbagai sektor industri, komersial, dan perumahan.",
   keywords:
-    "PT Blambangan Mandiri Sejahtera, Advokat, Pengacara, Layanan Hukum, Konsultasi Hukum",
+    "PT Blambangan Mandiri Sejahtera, jasa keamanan, layanan keamanan, security, industri, komersial, perumahan, profesional",
   openGraph: {
     siteName: "PT Blambangan Mandiri Sejahtera",
-    url: "https://https://www.blambanganmandirisejahtera.com/",
+    url: "https://www.blambanganmandirisejahtera.com/",
     type: "website",
     images: [
       {
-        url: "https://https://www.blambanganmandirisejahtera.com/logo.png",
+        url: "https://www.blambanganmandirisejahtera.com/logo.png",
       },
     ],
   },
-  metadataBase: new URL("https://https://www.blambanganmandirisejahtera.com/"),
+  metadataBase: new URL("https://www.blambanganmandirisejahtera.com/"),
   other: {
     "X-UA-Compatible": "IE=edge",
   },
