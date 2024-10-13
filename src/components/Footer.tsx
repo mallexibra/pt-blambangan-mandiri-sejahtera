@@ -41,7 +41,7 @@ export default function Footer() {
           </section>
         </div>
         <p className="text-center p-5 border-t border-white text-white md:text-sm text-xs">
-          Copyright © 2024 PT Blambangan Usaha Mandiri. All rights reserved
+          Copyright © 2024 PT Blambangan Mandiri Sejahtera. All rights reserved
         </p>
       </Container>
     </footer>
