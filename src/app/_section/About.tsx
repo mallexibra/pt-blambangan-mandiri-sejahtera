@@ -29,7 +29,7 @@ export default function About() {
               berkomitmen untuk menyediakan layanan keamanan yang andal dan
               profesional bagi berbagai sektor industri, komersial, dan
               perumahan. Dengan tim yang terdiri dari personel keamanan terlatih
-              dan berpengalaman, PT Blambangan Usaha Mandiri menawarkan berbagai
+              dan berpengalaman, PT Blambangan Mandiri Sejahtera menawarkan berbagai
               layanan mulai dari pengamanan fasilitas, patroli area, hingga
               layanan pengawalan khusus.
             </p>
